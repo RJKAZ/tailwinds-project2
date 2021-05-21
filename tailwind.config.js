@@ -27,6 +27,28 @@ module.exports = {
         
    
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            h1: {
+              fontWeight: '800',
+            },
+            h2: {
+              fontWeight: '400',
+            }
+
+          },
+
+        },
+        lg: {
+          css: {
+            h2: {
+              color: 'green',
+            },
+
+          },
+        },
+      },
     },
   },
   variants: {
@@ -37,5 +59,6 @@ module.exports = {
   },
   plugins: [
     require('tailwindcss-debug-screens'),
+    require('@tailwindcss/typography'),
   ],
 }

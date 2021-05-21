@@ -12,6 +12,15 @@
     body {
 
         }
+    .typo {
+        @apply prose prose-2xl tablet:prose-lg desktop:prose-sm prose-red max-w-min;
+    }
+
+    h2 {
+        font-size: 2em !important;
+    }
+
+        
 
     .container {
 
